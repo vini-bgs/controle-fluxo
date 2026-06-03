@@ -10,4 +10,4 @@ valor_total = {}
 for d in vendas:
     valor_total[d["categoria"]] = valor_total.get([d["categoria"], 0]) + d["valor"] 
 
-print(valor_total) 
+print(valor_total)
