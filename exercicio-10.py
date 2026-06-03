@@ -8,9 +8,6 @@ vendas = [
 
 valor_total = {}
 for d in vendas:
-    if d["categoria"] not in valor_total:
-        valor_total[d["categoria"]] = d["valor"]
-    else:
-        valor_total[d["categoria"]] += d["valor"]
+    valor_total[d["categoria"]] = valor_total.get([d["categoria"], 0]) + d["valor"] 
 
 print(valor_total)
