@@ -12,5 +12,5 @@ while True:
         break
 
     lista_dados.append(dado)
-    
-print(lista_dados)
+
+print(lista_dados) 

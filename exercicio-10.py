@@ -13,4 +13,4 @@ for d in vendas:
     else:
         valor_total[d["categoria"]] += d["valor"]
 
-print(valor_total)
+print(valor_total) 
